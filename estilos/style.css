@@ -13,9 +13,10 @@ html, body{
 }
 
 body{
-    background: url('../imagens/fundo-madeira.jpg')no-repeat top center;
+    background: url('../imagens/Fundo-progra.webp')no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center center;
 }
 
 main{
@@ -25,9 +26,11 @@ main{
 
 section#telefone{
     position: absolute;
-    top: 60%;
-    left: 60%;
-    transform: translate(-60%, 30%);
+    width: 400px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
     
     height: 627px;
     width: 311px;
@@ -47,7 +50,7 @@ section#redes-socias {
 }
 section#redes-sociais img {
     width: 50px;
-    margin: 2px;
+    margin: 5px;
     border-radius: 50%;
     box-shadow: 2px 2px rgba(0, 0, 0, 0.400);
     box-sizing: border-box;
